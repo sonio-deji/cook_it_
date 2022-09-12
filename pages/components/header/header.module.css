@@ -1,0 +1,7 @@
+.headerSelection {
+    border-radius: 20px;
+    width: fit-content;
+    padding: 9px 28px 8px 26px;
+    color: black;
+    border: solid 0.5px black;
+}

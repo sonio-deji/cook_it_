@@ -1,0 +1,14 @@
+.search {
+width: 571px;
+height: 66px;
+left: 450px;
+border: 2px solid #000000;
+border-radius: 10px;
+}
+.searchButton {
+width: 190px;
+height: 66px;
+left: 1235px;
+background: #D30C12;
+border-radius: 10px;
+}
