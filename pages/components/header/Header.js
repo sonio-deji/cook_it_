@@ -1,29 +1,42 @@
 import React, { useState } from "react";
 import Style from "./header.module.css";
 
-const headerSelection = ["All", "Popular", "Intercontinental", "Nigerian Dish"];
+const headerSelection = [
+  {
+    id: 1,
+    title: "All",
+  },
+  {
+    id: 2,
+    title: "Popular",
+  },
+  {
+    id: 3,
+    title: "Intercontinental",
+  },
+  {
+    id: 4,
+    title: "Nigerian Dish",
+  },
+];
 
 function Header() {
-  const [background, setbackground] = useState(null);
+  const [background, setbackground] = useState(false);
 
   const selected = (selectedItem) => {
-    setbackground(selectedItem);
+    setbackground({ selectedItem });
   };
   return (
     <div>
-      {/* <div className="flex">
+      <div className="flex">
         {headerSelection.map((selection, i) => {
           return (
-            <button
-              className={`${Style.headerSelection}`background === selection ? 'bg-black' : 'bg-white' }
-              key={i}
-              onClick={selected(selection)}
-            >
-              {selection}
+            <button key={i} className={Style.headerSelection}>
+              {selection.title}
             </button>
           );
         })}
-      </div> */}
+      </div>
     </div>
   );
 }
