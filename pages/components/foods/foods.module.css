@@ -1,0 +1,43 @@
+.foodList {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 40px;
+    height: 843px;
+    gap: 54px;
+    width: 100%;
+    margin: auto;
+}
+.foodListMain {
+    background-color: #fffafa;
+
+}
+.food {
+    width: 371px;
+    height: auto;
+    border-radius: 10px;
+
+}
+
+@media (min-width: 660px) {
+    .foodList {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .food {
+        position: relative;
+        width: auto;
+    }
+}
+@media (min-width: 1376px) {
+    .foodList {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+
+    }
+    .foodListMain {
+        margin-left: 300px;
+    }
+    .food {
+        position: relative;
+        width: auto;
+    }
+}

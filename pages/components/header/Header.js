@@ -23,20 +23,18 @@ const headerSelection = [
 function Header() {
   const [background, setbackground] = useState(false);
 
-  const selected = (selectedItem) => {
-    setbackground({ selectedItem });
-  };
+  //   const selected = (selectedItem) => {
+  //     setbackground({ selectedItem });
+  //   };
   return (
-    <div>
-      <div className="flex">
-        {headerSelection.map((selection, i) => {
-          return (
-            <button key={i} className={Style.headerSelection}>
-              {selection.title}
-            </button>
-          );
-        })}
-      </div>
+    <div className={Style.headerContainer}>
+      {headerSelection.map((selection, i) => {
+        return (
+          <button key={i} className={Style.headerSelection}>
+            {selection.title}
+          </button>
+        );
+      })}
     </div>
   );
 }

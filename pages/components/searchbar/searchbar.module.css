@@ -1,14 +1,135 @@
 .search {
-width: 571px;
-height: 66px;
-left: 450px;
+width: auto;
+height: 48px;
 border: 2px solid #000000;
 border-radius: 10px;
+margin-right: 4px;
+color: #7f7f7f;
+font-size: 20px;
+padding-left: 30px;
+}
+.label {
+    position: relative;
+}
+.search::placeholder {
+    font-weight: 500;
+    color: #7f7f7f;
+    font-size: 20px;
 }
 .searchButton {
-width: 190px;
-height: 66px;
-left: 1235px;
+width: auto;
+height: 48px;
 background: #D30C12;
 border-radius: 10px;
+font-weight: 600;
+font-size: 12px;
+padding: 4px;
+}
+.inputSection {
+    display: flex;
+    margin-top: 165px;
+    display: flex;
+    align-items: center;
+}
+.business {
+    position: absolute;
+    top: 30px;
+    left: 10px;
+}
+.searchIcon {
+    position: absolute;
+    top: 12px;
+    left: 0px;
+}
+.micIcon {
+    position: absolute;
+    top: 13px;
+    right: 30px;
+}
+.userArea {
+    display: flex;
+    align-items: center;
+}
+.searchContainer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+.cook {
+    color: black;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Knewave', cursive;
+}
+.it {
+    color: #D30C12;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Knewave', cursive;
+}
+.user {
+    font-weight: 600;
+    font-size: 24px;
+    color: #000000;
+    display: none;
+}
+.business {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hamburger {
+    position: absolute;
+    top: 40px;
+    padding-right: 10px;
+    right: 0;
+    cursor: pointer;
+}
+.userArea svg {
+    position: absolute;
+    top: 45px;
+    right: 80px;
+}
+.userImage {
+    display: none;
+}
+@media (min-width: 1376px) {
+    .user {
+        display: block;
+    }
+    .business {
+        display: none;
+    }
+    .userImage {
+        display: block;
+    }
+    .hamburger {
+        display: none;
+    }
+    .userArea svg {
+        position: unset;
+    }
+    .inputSection {
+        position: absolute;
+        top: 68px;
+        margin-top: 0;
+        left: 330px;
+    }
+    .userArea {
+        position: absolute;
+        right: 80px;
+        top: 59px;
+        gap: 20px;
+    }
+    .search {
+        width: 571px;
+    }
+    .searchButton {
+        width: 190px;
+        font-size: 30px;
+    }
 }

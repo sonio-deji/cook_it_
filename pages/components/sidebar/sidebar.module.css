@@ -1,0 +1,80 @@
+.sidebar {
+    margin-top: 43.3px;
+    height: 100%;
+}
+.sidebarMain {
+    background-color: #fffaff;
+    width: 311px;
+    max-height: 1117px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.cook {
+    color: black;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Knewave', cursive;
+}
+.it {
+    color: #D30C12;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Knewave', cursive;
+}
+.business {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sidebarList {
+    display: flex;
+    align-items: center;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    gap: 40px;
+}
+.sidebarTitle {
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+}
+.sidebarSection {
+    padding-top: 40px;
+    padding-left: 24px;
+    padding-right: 26px;
+}
+.sidebar hr {
+    border: 1px solid black;
+    width: 261px;
+}
+.sidebarFooter {
+    padding-top: 333px;
+    padding-left: 24px;
+}
+.sidebarFooterList {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding-bottom: 13px;
+
+}
+.sidebarFooterListTwo {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding-top: 32px;
+}
+.hr {
+    border: 1px solid black;
+    width: 261px !important;
+}
+@media (min-width: 1376px) {
+    .sidebarMain {
+        display: block;
+    }
+}

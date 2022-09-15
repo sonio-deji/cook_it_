@@ -3,5 +3,17 @@
 @tailwind utilities;
 
 body {
-    background-color: #D3D3D3;
+    background-color: white;
+    max-width: 1728px;
+    margin: 0 auto;
+    color: white;
+    padding: 68px;
+    position: relative;
+    font-family: 'inter', sans-serif;
+}
+@media (max-width: 1014px) {
+    body {
+        padding: 0px;
+
+    }
 }
