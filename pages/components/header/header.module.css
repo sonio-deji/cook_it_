@@ -11,7 +11,7 @@
     padding-top: 55px;
     gap: 12px;
     padding-bottom: 35px;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 20px;
 }
 @media (min-width: 1376px) {

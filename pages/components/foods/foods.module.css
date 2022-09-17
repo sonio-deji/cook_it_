@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 54px;
-    
+    justify-content: center;
 }
 .foodListMain {
     background-color: #fffafa;
