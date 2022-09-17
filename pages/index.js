@@ -27,20 +27,10 @@ export default function Home() {
       </Head>
 
       <main>
-        <div className={Style.searchContainer}>
           <SearchBar setShowSideBar={showSideBar} />
-        </div>
-        <div>
           <Header />
-        </div>
-        <div className={Style.sideAndFood}>
-          <div className={Style.sidebar}>
             <Sidebar />
-          </div>
-          <div className={Style.food}>
             <Foods />
-          </div>
-        </div>
       </main>
       <Mobile mobileSideBar={mobileSideBar} setCloseSidebar={hideSideBar} />
     </div>
