@@ -4,14 +4,13 @@
 
 body {
     background-color: white;
-    max-width: 1728px;
-    margin: 0 auto;
     color: white;
     font-family: 'inter', sans-serif;
 }
-/* @media (min-width: 1014px) {
+@media (min-width: 1376px) {
     body {
         padding: 0px;
-
+        max-width: 1728px;
+        margin: 0 auto;
     }
-} */
+}
