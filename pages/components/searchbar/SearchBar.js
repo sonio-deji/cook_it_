@@ -44,7 +44,7 @@ function SearchBar(props) {
         </svg>
         <div className={Style.userImage}>
           <Image
-            src={"/assets/Ellipse 125.png"}
+            src={"/assets/Ellipse125.png"}
             width={"66px"}
             height={"66px"}
           />

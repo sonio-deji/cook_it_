@@ -12,22 +12,22 @@ const sidebarList = [
   {
     id: 2,
     name: "Profile",
-    image: "/assets/Inner Plugin Iframe.png",
+    image: "/assets/InnerPluginIframe.png",
   },
   {
     id: 3,
     name: "Notifications",
-    image: "/assets/Inner Plugin Iframe(1).png",
+    image: "/assets/InnerPluginIframeOne.png",
   },
   {
     id: 4,
     name: "Uploads",
-    image: "/assets/Group(1).png",
+    image: "/assets/GroupOne.png",
   },
   {
     id: 5,
     name: "Settings",
-    image: "/assets/Inner Plugin Iframe(2).png",
+    image: "/assets/InnerPluginIframeTwo.png",
   },
 ];
 function Mobile(props) {
@@ -59,7 +59,7 @@ function Mobile(props) {
                 <div className={Style.userArea}>
                   <div className={Style.userImage}>
                     <Image
-                      src={"/assets/Ellipse 125.png"}
+                      src={"/assets/Ellipse125.png"}
                       width={"88px"}
                       height={"88px"}
                       layout="fixed"

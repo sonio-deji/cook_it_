@@ -6,39 +6,39 @@ const foodList = [
   {
     id: 1,
     desc: "How to cook jollof rice",
-    image: "/assets/Frame 226.jpg",
+    image: "/assets/Frame226.jpg",
   },
   {
     id: 2,
     desc: "How to cook pasta",
-    image: "/assets/Frame 227.jpg",
+    image: "/assets/Frame227.jpg",
   },
   {
     id: 3,
     desc: "How to make oat",
-    image: "/assets/Frame 228.jpg",
+    image: "/assets/Frame228.jpg",
   },
   {
     id: 4,
     desc: "How to make toast bread",
-    image: "/assets/Frame 229.jpg",
+    image: "/assets/Frame229.jpg",
   },
   {
     id: 5,
     desc: "How to make Crispy chicken",
-    image: "/assets/Frame 230.jpg",
+    image: "/assets/Frame230.jpg",
   },
   {
     id: 6,
     desc: "How to make pizza",
-    image: "/assets/Frame 231.jpg",
+    image: "/assets/Frame231.jpg",
   },
 ];
 
 function Foods() {
   return (
     <div className={Style.foodListMain}>
-      <div className={`${Style.foodList}`}>
+      <div className={Style.foodList}>
         {foodList.map((food, i) => {
           return (
             <div key={i} className={Style.food}>
