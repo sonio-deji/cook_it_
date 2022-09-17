@@ -39,7 +39,7 @@ function Mobile(props) {
             className={Style.sidebarMain}
             initial={{ width: 0 }}
             animate={{
-              width: 414,
+              width: 380,
             }}
             exit={{
               width: 0,
